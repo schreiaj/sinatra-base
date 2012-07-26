@@ -13,3 +13,5 @@ Generating routes can be accomplished by running bundle exec rake routes:generat
 
 ### Tests
 Generating tests can be accomplished by running bundle exec rake test:generate[testName]. This creates a file that will be automatically loaded and run in the test suite. 
+
+Tests can be run by doing bundle exec test:run
