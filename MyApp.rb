@@ -4,7 +4,6 @@
 
 
 require 'bundler'
-require 'active_record'
 require 'yaml'
 Bundler.require
 

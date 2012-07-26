@@ -6,7 +6,9 @@ gem 'haml'
 gem 'coffee-script'
 gem 'sass'
 
-gem 'activerecord'
+gem "couchdb", "~>0.2.2"
+
+gem 'couchrest_model'
 
 gem 'foreman'
 

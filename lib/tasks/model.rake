@@ -7,7 +7,8 @@ namespace :model  do
 		path = File.join(models, args.modelName.downcase+".rb")
 		if !File.exists? path
 			m = File.open(path, "w")
-			m.puts "class #{args.modelName} < ActiveRecord::Base\n"
+			m.puts "class #{args.modelName.capitalize} < CouchRest::Model::Base"
+			m.puts "\tuse_database '#{args.modelName}'"
 			m.puts "end"
 			m.close
 		else
