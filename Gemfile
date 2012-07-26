@@ -14,5 +14,9 @@ group :development do
 	gem 'thin'
 	gem 'shotgun'
 	gem 'sqlite3'
+end
 
+group :test do
+	gem 'capybara'
+	gem 'test-unit'
 end
