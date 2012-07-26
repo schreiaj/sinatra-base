@@ -1,6 +1,6 @@
 #If you change the name of this file you must also change the require statement 
-# in the Rakefile to whatever the new name is. If you know of a clever fix to
-# this let me know. 
+# in the Rakefile and in the config.ru to whatever the new name is. If you know 
+# of a clever fix to this let me know. 
 
 
 require 'bundler'
