@@ -5,11 +5,14 @@ gem 'haml'
 gem 'coffee-script'
 gem 'sass'
 
-gem 'couchrest_model'
+gem 'active_record'
 
 gem 'foreman'
+gem 'yaml'
 
 group :development do
 	gem 'thin'
 	gem 'shotgun'
+	gem 'sqlite3'
+
 end
