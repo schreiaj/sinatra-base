@@ -1,0 +1,3 @@
+adapter: sqlite
+database:  database
+host:      localhost

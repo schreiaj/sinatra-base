@@ -1,14 +1,14 @@
 source :rubygems
 
+gem 'rake'
 gem 'sinatra'
 gem 'haml'
 gem 'coffee-script'
 gem 'sass'
 
-gem 'active_record'
+gem 'activerecord'
 
 gem 'foreman'
-gem 'yaml'
 
 group :development do
 	gem 'thin'
