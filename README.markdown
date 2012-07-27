@@ -1,5 +1,14 @@
 # Sinatra Base
-This is a project I use for setting up new sinatra projects.
+This is a project I use for setting up new sinatra projects.	
+
+
+## About
+
+This is a basic set up for using Sinatra and CouchDB together, it contains a handful of generators for making models, routes, and views as well as generating test scripts. 
+
+## Requirements
+
+This uses CouchDB so you will have to have it installed on your system. It will automatically be started by foreman.
 
 ## Generators
 
@@ -15,3 +24,7 @@ Generating routes can be accomplished by running bundle exec rake routes:generat
 Generating tests can be accomplished by running bundle exec rake test:generate[testName]. This creates a file that will be automatically loaded and run in the test suite. 
 
 Tests can be run by doing bundle exec test:run
+
+## Running
+
+This can be run by running a bundle install and then the server can be started with a bundle exec foreman start
